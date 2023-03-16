@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header';
-import { Switch } from 'react-router-dom';
+import PersonList from './components/PersonList';
 
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <hr></hr>
 
       <Header first_name="gokul" last_name="chandan" age="28" message="Gokul's message is here"></Header>
+      <hr></hr>
+      <PersonList></PersonList>
       <hr></hr>
     </div>
 

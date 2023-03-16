@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import { getContacts, createContact } from "../contacts";
+import { createContact } from "../contacts";
 
 export async function action() {
   const contact = await createContact();

@@ -7,7 +7,7 @@ import './index.css';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import ErrorPage from './error-page';
 import Contact from './routes/contact';
-import Root, { loader as rootLoader } from "./routes/root";
+import Root from "./routes/root";
 
 
 
