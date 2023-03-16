@@ -13,7 +13,7 @@ export default function Root() {
         <div id="sidebar">
             <h1>(Routing component)</h1>
           <h2>React Router Contacts</h2>
-          <div>
+          {/* <div>
             <form id="search-form" role="search">
               <input
                 id="q"
@@ -36,7 +36,7 @@ export default function Root() {
               <button type="submit">New</button>
             </form>
         
-          </div>
+          </div> */}
           <nav>
           <ul>
             <li>

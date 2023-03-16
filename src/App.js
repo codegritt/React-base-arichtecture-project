@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/header';
+import PersonAdd from './components/PersonAdd';
 import PersonList from './components/PersonList';
+import PersonRemove from './components/PersonRemove';
 
 
 function App() {
@@ -13,6 +15,10 @@ function App() {
       <Header first_name="gokul" last_name="chandan" age="28" message="Gokul's message is here"></Header>
       <hr></hr>
       <PersonList></PersonList>
+      <hr></hr>
+      <PersonAdd></PersonAdd>
+      <hr></hr>
+      <PersonRemove></PersonRemove>
       <hr></hr>
     </div>
 

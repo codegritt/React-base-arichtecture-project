@@ -17,7 +17,7 @@ export default class PersonList extends React.Component {
   render() {
     return (
         <>
-            <h1>Using axios for API fetch</h1>
+            <h1>(Using axios.get for API fetch)</h1>
       <ul>
         {
           this.state.persons
